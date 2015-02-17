@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Items]
+(
+	[ItemID] INT NOT NULL PRIMARY KEY, 
+    [ItemType] VARCHAR(50) NOT NULL
+)
