@@ -5,5 +5,4 @@
     [RegionID] INT NOT NULL, 
     FOREIGN KEY ([ItemID]) REFERENCES [Items]([ItemID]), 
     FOREIGN KEY ([RegionID]) REFERENCES [Regions]([RegionID]) 
-
 )
